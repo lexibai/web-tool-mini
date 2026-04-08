@@ -1,178 +1,180 @@
 # 🛠️ Web Tool Mini
 
-> 面向 Web 开发者的本地工具箱，提供编码解码、哈希加密、JSON 处理、JWT 工具、时间日期转换等常用开发工具。
+> A local toolbox for web developers, providing commonly used utilities such as encoding/decoding, hashing, JSON processing, JWT tools, date/time conversion, and much more.
 
-## 技术栈
+[中文文档](./README-cn.md)
 
-- **前端**：Vue 3 + TypeScript + Vite
-- **状态管理**：Pinia
-- **路由**：Vue Router
-- **代码规范**：ESLint
+## Tech Stack
 
-## 快速开始
+- **Frontend**: Vue 3 + TypeScript + Vite
+- **State Management**: Pinia
+- **Routing**: Vue Router
+- **Linting**: ESLint
+
+## Getting Started
 
 ```bash
-# 安装依赖
+# Install dependencies
 npm install
 
-# 启动开发服务器
+# Start development server
 npm run dev
 
-# 类型检查并构建生产版本
+# Type-check and build for production
 npm run build
 
-# 预览生产构建
+# Preview production build
 npm run preview
 
-# 代码规范检查
+# Lint the code
 npm run lint
 ```
 
-## 开发计划
+## Roadmap
 
-### 一、编码 / 解码类
+### I. Encoding / Decoding
 
-| 功能 | 状态 |
-|------|------|
-| Base64 编码 / 解码 | 📋 待开发 |
-| URL 编码 / 解码 | 📋 待开发 |
-| HTML 实体编码 / 解码 | 📋 待开发 |
-| Unicode 转义 / 反转义 | 📋 待开发 |
-| Hex 十六进制互转 | 📋 待开发 |
-| ASCII 与字符互转 | 📋 待开发 |
-| Base58 / Base32 编解码 | 📋 待开发 |
-| Morse 码编解码 | 📋 待开发 |
+| Feature | Status |
+|---------|--------|
+| Base64 Encode / Decode | 📋 Planned |
+| URL Encode / Decode | 📋 Planned |
+| HTML Entity Encode / Decode | 📋 Planned |
+| Unicode Escape / Unescape | 📋 Planned |
+| Hex Encode / Decode | 📋 Planned |
+| ASCII ↔ Character | 📋 Planned |
+| Base58 / Base32 Encode / Decode | 📋 Planned |
+| Morse Code Encode / Decode | 📋 Planned |
 
-### 二、哈希 / 加密类
+### II. Hash / Encryption
 
-| 功能 | 状态 |
-|------|------|
-| MD5 哈希 | 📋 待开发 |
-| SHA-1 / SHA-256 / SHA-512 | 📋 待开发 |
-| HMAC（MD5 / SHA 系列）| 📋 待开发 |
-| bcrypt 哈希生成 / 验证 | 📋 待开发 |
-| CRC32 校验 | 📋 待开发 |
-| GOST / SM3（国密算法）| 📋 待开发 |
-| AES 对称加解密 | 📋 待开发 |
-| RSA 非对称加解密 | 📋 待开发 |
-| 文件 MD5 / SHA 校验 | 📋 待开发 |
+| Feature | Status |
+|---------|--------|
+| MD5 | 📋 Planned |
+| SHA-1 / SHA-256 / SHA-512 | 📋 Planned |
+| HMAC (MD5 / SHA series) | 📋 Planned |
+| bcrypt Hash Generate / Verify | 📋 Planned |
+| CRC32 | 📋 Planned |
+| GOST / SM3 (Chinese National Standard) | 📋 Planned |
+| AES Symmetric Encrypt / Decrypt | 📋 Planned |
+| RSA Asymmetric Encrypt / Decrypt | 📋 Planned |
+| File MD5 / SHA Checksum | 📋 Planned |
 
-### 三、JSON 处理类
+### III. JSON Tools
 
-| 功能 | 状态 |
-|------|------|
-| JSON 格式化 / 美化 | 📋 待开发 |
-| JSON 压缩 / 去空格 | 📋 待开发 |
-| JSON 校验 / 语法高亮 | 📋 待开发 |
-| JSON 转 XML | 📋 待开发 |
-| JSON 转 YAML | 📋 待开发 |
-| JSON 转 TOML | 📋 待开发 |
-| JSONPath 查询 | 📋 待开发 |
-| JSON 比较 / DIFF | 📋 待开发 |
-| JSON Schema 生成 / 校验 | 📋 待开发 |
-| JSON 转 CSV | 📋 待开发 |
-| JSON 转 TypeScript 接口 | 📋 待开发 |
+| Feature | Status |
+|---------|--------|
+| JSON Format / Prettify | 📋 Planned |
+| JSON Minify | 📋 Planned |
+| JSON Validate / Syntax Highlight | 📋 Planned |
+| JSON to XML | 📋 Planned |
+| JSON to YAML | 📋 Planned |
+| JSON to TOML | 📋 Planned |
+| JSONPath Query | 📋 Planned |
+| JSON Diff / Compare | 📋 Planned |
+| JSON Schema Generate / Validate | 📋 Planned |
+| JSON to CSV | 📋 Planned |
+| JSON to TypeScript Interface | 📋 Planned |
 
-### 四、JWT 处理类
+### IV. JWT Tools
 
-| 功能 | 状态 |
-|------|------|
-| JWT 解码（Header + Payload）| 📋 待开发 |
-| JWT 签名验证（HS256 / RS256 / ES256）| 📋 待开发 |
-| JWT 生成（自定义 Payload + 密钥）| 📋 待开发 |
-| JWT 过期时间检查 | 📋 待开发 |
-| JWT 弱密钥暴力测试（安全工具）| 📋 待开发 |
+| Feature | Status |
+|---------|--------|
+| JWT Decode (Header + Payload) | 📋 Planned |
+| JWT Signature Verify (HS256 / RS256 / ES256) | 📋 Planned |
+| JWT Generate (Custom Payload + Secret) | 📋 Planned |
+| JWT Expiration Check | 📋 Planned |
+| JWT Weak Secret Brute-force (Security Tool) | 📋 Planned |
 
-### 五、时间戳 / 日期类
+### V. Timestamp / Date
 
-| 功能 | 状态 |
-|------|------|
-| Unix 时间戳 ↔ 日期时间互转 | 📋 待开发 |
-| 相对时间计算（如"2 天前"）| 📋 待开发 |
-| 时区转换 | 📋 待开发 |
-| Cron 表达式解释器 | 📋 待开发 |
-| 毫秒 / 微秒 / 纳秒转换 | 📋 待开发 |
-| 日期加减运算 | 📋 待开发 |
-| 工作日计算 | 📋 待开发 |
+| Feature | Status |
+|---------|--------|
+| Unix Timestamp ↔ DateTime | 📋 Planned |
+| Relative Time (e.g. "2 days ago") | 📋 Planned |
+| Timezone Conversion | 📋 Planned |
+| Cron Expression Parser | 📋 Planned |
+| Millisecond / Microsecond / Nanosecond Conversion | 📋 Planned |
+| Date Arithmetic | 📋 Planned |
+| Business Day Calculator | 📋 Planned |
 
-### 六、正则表达式类
+### VI. Regular Expressions
 
-| 功能 | 状态 |
-|------|------|
-| 正则测试与可视化 | 📋 待开发 |
-| 常用正则库（邮箱、URL、手机号、IP 等）| 📋 待开发 |
-| 正则生成器（从文本样例生成）| 📋 待开发 |
-| 正则语法速查表 | 📋 待开发 |
+| Feature | Status |
+|---------|--------|
+| Regex Tester & Visualizer | 📋 Planned |
+| Common Regex Library (Email, URL, Phone, IP, etc.) | 📋 Planned |
+| Regex Generator (from text samples) | 📋 Planned |
+| Regex Syntax Cheatsheet | 📋 Planned |
 
-### 七、文本 / 字符串处理类
+### VII. Text / String Processing
 
-| 功能 | 状态 |
-|------|------|
-| 字符串长度统计（字节 / 字符）| 📋 待开发 |
-| 大小写转换（驼峰 / 下划线 / 常量 / 首字母大写）| 📋 待开发 |
-| 占位符替换（`{name}` → 实际值）| 📋 待开发 |
-| 随机字符串生成（密码 / Token）| 📋 待开发 |
-| 文本去重 / 排序 / 倒序 | 📋 待开发 |
-| 统计字符 / 单词 / 行数 | 📋 待开发 |
-| Markdown 转 HTML | 📋 待开发 |
-| 字符串编辑距离（Levenshtein）| 📋 待开发 |
-| 中文简繁转换 | 📋 待开发 |
-| 文本 Diff 比较 | 📋 待开发 |
+| Feature | Status |
+|---------|--------|
+| String Length Counter (bytes / chars) | 📋 Planned |
+| Case Converter (camelCase / snake_case / CONSTANT / Title) | 📋 Planned |
+| Placeholder Replacer (`{name}` → value) | 📋 Planned |
+| Random String Generator (Password / Token) | 📋 Planned |
+| Text Deduplicate / Sort / Reverse | 📋 Planned |
+| Character / Word / Line Counter | 📋 Planned |
+| Markdown to HTML | 📋 Planned |
+| Levenshtein Edit Distance | 📋 Planned |
+| Chinese Simplified ↔ Traditional | 📋 Planned |
+| Text Diff | 📋 Planned |
 
-### 八、颜色 / 图像处理类
+### VIII. Color / Image Tools
 
-| 功能 | 状态 |
-|------|------|
-| 颜色转换（HEX ↔ RGB ↔ HSL ↔ HSV）| 📋 待开发 |
-| 图片转 Base64 | 📋 待开发 |
-| Base64 预览（图片 / PDF）| 📋 待开发 |
-| 二维码生成 | 📋 待开发 |
-| 二维码解码 | 📋 待开发 |
-| 图片压缩 / 裁剪 | 📋 待开发 |
-| CSS 渐变生成器 | 📋 待开发 |
-| 调色板生成器 | 📋 待开发 |
+| Feature | Status |
+|---------|--------|
+| Color Converter (HEX ↔ RGB ↔ HSL ↔ HSV) | 📋 Planned |
+| Image to Base64 | 📋 Planned |
+| Base64 Preview (Image / PDF) | 📋 Planned |
+| QR Code Generator | 📋 Planned |
+| QR Code Decoder | 📋 Planned |
+| Image Compress / Crop | 📋 Planned |
+| CSS Gradient Generator | 📋 Planned |
+| Color Palette Generator | 📋 Planned |
 
-### 九、网络 / 请求类
+### IX. Network / Request Tools
 
-| 功能 | 状态 |
-|------|------|
-| HTTP 请求测试（GET / POST / PUT / DELETE）| 📋 待开发 |
-| IP 信息查询（本机 IP、归属地）| 📋 待开发 |
-| User-Agent 解析 | 📋 待开发 |
-| DNS 查询工具 | 📋 待开发 |
-| URL 解析器（拆解协议 / 域名 / 路径 / 参数）| 📋 待开发 |
-| HTTP 状态码速查 | 📋 待开发 |
-| CORS 问题诊断助手 | 📋 待开发 |
+| Feature | Status |
+|---------|--------|
+| HTTP Request Tester (GET / POST / PUT / DELETE) | 📋 Planned |
+| IP Info Lookup (Local IP, Geolocation) | 📋 Planned |
+| User-Agent Parser | 📋 Planned |
+| DNS Lookup | 📋 Planned |
+| URL Parser (scheme / host / path / query) | 📋 Planned |
+| HTTP Status Code Reference | 📋 Planned |
+| CORS Diagnostics | 📋 Planned |
 
-### 十、开发者通用类
+### X. Developer Utilities
 
-| 功能 | 状态 |
-|------|------|
-| 代码美化 / 压缩（JS / CSS / HTML）| 📋 待开发 |
-| UUID / GUID 生成（v1 / v3 / v4 / v5）| 📋 待开发 |
-| Lorem ipsum 占位文本生成 | 📋 待开发 |
-| 模拟数据生成（姓名、手机、邮箱、地址等）| 📋 待开发 |
-| SQL 格式化 / 美化 | 📋 待开发 |
-| CSS 单位换算（px / rem / em / vw）| 📋 待开发 |
-| 数字进制转换（二 / 八 / 十 / 十六进制）| 📋 待开发 |
-| 键盘事件码查询（KeyCode）| 📋 待开发 |
-| 文件大小单位换算 | 📋 待开发 |
-| 国际化语言代码速查（ISO 639）| 📋 待开发 |
+| Feature | Status |
+|---------|--------|
+| Code Prettify / Minify (JS / CSS / HTML) | 📋 Planned |
+| UUID / GUID Generator (v1 / v3 / v4 / v5) | 📋 Planned |
+| Lorem Ipsum Generator | 📋 Planned |
+| Mock Data Generator (Name, Phone, Email, Address, etc.) | 📋 Planned |
+| SQL Formatter | 📋 Planned |
+| CSS Unit Converter (px / rem / em / vw) | 📋 Planned |
+| Number Base Converter (Binary / Octal / Decimal / Hex) | 📋 Planned |
+| Keyboard Event Code Lookup (KeyCode) | 📋 Planned |
+| File Size Unit Converter | 📋 Planned |
+| Language Code Reference (ISO 639) | 📋 Planned |
 
 ---
 
-状态说明：📋 待开发 · 🚧 开发中 · ✅ 已完成
+Status: 📋 Planned · 🚧 In Progress · ✅ Done
 
-## 项目结构
+## Project Structure
 
 ```
 web-tool-mini/
 ├── src/
-│   ├── assets/          # 静态资源
-│   ├── components/      # 公共组件
-│   ├── router/          # 路由配置
-│   ├── stores/          # Pinia 状态
-│   ├── views/           # 页面视图
+│   ├── assets/          # Static assets
+│   ├── components/      # Shared components
+│   ├── router/          # Route definitions
+│   ├── stores/          # Pinia stores
+│   ├── views/           # Page views
 │   └── App.vue
 ├── public/
 ├── index.html
