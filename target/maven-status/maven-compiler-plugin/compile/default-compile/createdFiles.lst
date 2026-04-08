@@ -1,8 +1,0 @@
-com/webtool/WebToolMiniApplication.class
-com/webtool/controller/TimestampToolController.class
-com/webtool/controller/UrlToolController.class
-com/webtool/controller/UuidToolController.class
-com/webtool/controller/HashToolController.class
-com/webtool/controller/JsonToolController.class
-com/webtool/model/ApiResponse.class
-com/webtool/controller/Base64ToolController.class
